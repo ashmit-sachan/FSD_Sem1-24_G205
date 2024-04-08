@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* Base clip-path style */
+.footer-clip::after {
+    content: "";
+    display: block;
+    clip-path: ellipse(180% 100% at 50% 100%);
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+    left: 0px;
+    height: 15.625rem;
+    top: -3.125rem;
+}
+
+/* Adjustments for different breakpoints */
+@media (min-width: 30em) { /* Tailwind's sm breakpoint */
+    .footer-clip::after {
+        clip-path: ellipse(150% 100% at 50% 100%);
+    }
+}
+
+@media (min-width: 48em) { /* Tailwind's md breakpoint */
+    .footer-clip::after {
+        clip-path: ellipse(85% 100% at 50% 100%);
+    }
+}
