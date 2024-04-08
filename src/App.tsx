@@ -1,4 +1,3 @@
-import './App.css'
 import Footer from './fragments/Footer'
 import Header from './fragments/Header'
 import Navigation from './fragments/Navigation'
@@ -9,7 +8,7 @@ function App() {
     <>
     <div>
     <Header/>
-    <Navigation/>
+    
     <Index/>
     <Footer/>
     </div>

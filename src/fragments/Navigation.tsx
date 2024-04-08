@@ -1,6 +1,6 @@
 function Navigation() {
     return ( 
-        <div className="navigation">
+        <div className="bg-primary">
             Navigation
         </div>
      );
