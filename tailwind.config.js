@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bungeeShade: ['BungeeShade'],
+      },
       colors: {
         'primary': '#42683d',
         'primary-hover': '#2a4e2a'

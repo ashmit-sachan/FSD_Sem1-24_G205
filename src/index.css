@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 
+/* Logo Font */
+@font-face {
+    font-family: 'BungeeShade';
+    src: url('/src/assets/Bungee_Shade/BungeeShade-Regular.woff') format('woff'),
+        url('/src/assets/Bungee_Shade/BungeeShade-Regular.ttf') format('ttf');
+    font-weight: 400; /* Normal weight */
+    font-style: normal;
+  }
+
 
 /* Base clip-path style */
 .footer-clip::after {
